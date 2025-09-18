@@ -4,7 +4,7 @@ A simple todo list web application built with React, Material UI components, and
 
 ## Demo
 
-![App Demo](./assets/demo.gif)
+![App Demo](./src/assets/demo.gif)
 
 ## Description
 
