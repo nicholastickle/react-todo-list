@@ -1,12 +1,79 @@
-# React + Vite
+# Simple Todo List using Material UI and LocalStorage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple todo list web application built with React, Material UI components, and browser localStorage for data persistence.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![App Demo](./assets/demo.gif)
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Simple web app todo list created using React + Vite + JavaScript. The components for the todo list were created using [Material UI](https://mui.com/). The app has persistence by making use of browser localStorage. Icons were used from the MaterialUI library.
+
+## Features
+
+- Add, delete, and check off todos
+- Data persistence with localStorage
+- Responsive design
+
+## Tech Stack
+
+- **React** - Frontend framework
+- **Vite** - Build tool and development server
+- **JavaScript** - Programming language
+- **Material UI** - Component library and icons
+- **localStorage** - Browser storage for data persistence
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nicholastickle/react-todo-list.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd react-todo-list
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and navigate to `http://localhost:5173`
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Nicholas Tickle**
+- GitHub: [@nicholastickle](https://github.com/nicholastickle)
+
+## Acknowledgments
+
+- [Material UI](https://mui.com/) for the beautiful component library
+- [Vite](https://vitejs.dev/) for the amazing build tool
+- [React](https://reactjs.org/) for the powerful frontend framework
+
